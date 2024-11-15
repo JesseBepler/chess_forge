@@ -1,0 +1,30 @@
+/* Dark grey background */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+  #chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 90vmin;
+    height: 90vmin;
+    max-width: 100vh;
+    max-height: 100vw;
+    border: 4px solid #222;
+  }
+  
+  /* Colors for chessboard squares */
+  .light-square {
+    background-color: #6b504b; /* Light grey */
+  }
+  
+  .dark-square {
+    background-color: #415f85; /* Blue */
+  }
+  
